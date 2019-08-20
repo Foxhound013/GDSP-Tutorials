@@ -14,6 +14,7 @@ See the corresponding folder for the slide deck. I've included an excellent cras
 
 Resource(s)
 - An excellent crash course on Git's usage by Traversy Media: https://www.youtube.com/watch?v=SWYqp7iY_Tc
+- A super simple guidline to getting going fast with Git. Just the basics and nothing else. https://rogerdudler.github.io/git-guide/
 
 ### Tutorial 2 - Introduction to Jupyter and Virtual Environments
 TO BE COMPLETED
