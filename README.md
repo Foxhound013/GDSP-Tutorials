@@ -5,7 +5,7 @@ This repository serves as a home for all tutorials developed by myself for Purdu
 The following items are some tools that you may find useful in your time working with Python.
 
 - PyCharm: This is a full fledged IDE (Integrated Development Environment). I've worked with it some and its an excellent tool. The community edition lacks the ability to SSH into remote servers and work on the code remotely though. For projects on a personal machine though, I can't recommend it enough. https://www.jetbrains.com/pycharm/
-- VS Code: Visual Studio Code is a text editor by microsoft. You can configure this tool with a slew of extensions (some of which I will try to cover in one of our sessions). You can work on a multitude of languages with this text editor and SSH into one of the campus clusters to work on your code remotely.
+- VS Code: Visual Studio Code is a text editor by microsoft. You can configure this tool with a slew of extensions (some of which I will try to cover in one of our sessions). You can work on a multitude of languages with this text editor and SSH into one of the campus clusters to work on your code remotely. https://code.visualstudio.com/
 
 ## Tutorials
 
