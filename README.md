@@ -7,6 +7,11 @@ The following items are some tools that you may find useful in your time working
 - PyCharm: This is a full fledged IDE (Integrated Development Environment). I've worked with it some and its an excellent tool. The community edition lacks the ability to SSH into remote servers and work on the code remotely though. For projects on a personal machine though, I can't recommend it enough. https://www.jetbrains.com/pycharm/
 - VS Code: Visual Studio Code is a text editor by microsoft. You can configure this tool with a slew of extensions (some of which I will try to cover in one of our sessions). You can work on a multitude of languages with this text editor and SSH into one of the campus clusters to work on your code remotely. https://code.visualstudio.com/
 
+## General Resources
+Any resources that don't have a clear home in the following tutorials that I still think are useful will reside here.
+
+- As your projects become more involved, you'll need to decide what your workflow is going to be in order to stay organized. This article covers exactly that and provides some useful tips on how to manage all of your code and Jupyter Notebooks: https://medium.com/@rrfd/cookiecutter-data-science-organize-your-projects-atom-and-jupyter-2be7862f487e
+
 ## Tutorials
 
 ### Tutorial 1 - Introduction to Anaconda and Git
@@ -20,7 +25,7 @@ Resource(s)
 TO BE COMPLETED
 
 Resource(s)
-- As your projects become more involved, you'll need to decide what your workflow is going to be in order to stay organized. This article covers exactly that and provides some useful tips on how to manage all of your code and Jupyter Notebooks: https://medium.com/@rrfd/cookiecutter-data-science-organize-your-projects-atom-and-jupyter-2be7862f487e
+- A talk from Pycon 2015 describing Jupyter Notebooks generally and covering the use of magics in Jupyter: https://www.youtube.com/watch?v=zxkdO07L29Q
 
 ### Tutorial 3 - Visualization Libraries and the Basics of Visualization
 TO BE COMPLETED
