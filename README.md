@@ -41,6 +41,7 @@ Resource(s)
 - A talk from Pycon 2015 describing Jupyter Notebooks generally and covering the use of magics in Jupyter: https://www.youtube.com/watch?v=zxkdO07L29Q
 - As your projects become more involved, you'll need to decide what your workflow is going to be in order to stay organized. This article covers exactly that and provides some useful tips on how to manage all of your code and Jupyter Notebooks: https://medium.com/@rrfd/cookiecutter-data-science-organize-your-projects-atom-and-jupyter-2be7862f487e
 - Speaking of cookie-cutter data science, here is the home page for the project. This site has a wealth of information on how to structure your data science work. Keep in mind, these aren't rules that must always be followed. You have the freedom to modify things as you see fit! https://drivendata.github.io/cookiecutter-data-science/
+- While I **realy** like Jupyter Notebooks, they do have their limitations. It is a tool and just like any tool, it can be abused and misused. Jupyter Notebooks shine as a way to demonstrate an analysis and it's workflow, Exploratory Data Analysis (EDA), or for prototyping but when things get much more complicated you should consider pulling your code from the notebook into a regular Python project. https://towardsdatascience.com/5-reasons-why-jupyter-notebooks-suck-4dc201e27086
 
 ### Tutorial 3 - Visualization Libraries and the Basics of Visualization
 TO BE COMPLETED
