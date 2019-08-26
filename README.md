@@ -10,7 +10,7 @@ The following items are some tools that you may find useful in your time working
 ## General Resources
 Any resources that don't have a clear home in the following tutorials that I still think are useful will reside here.
 
-- As your projects become more involved, you'll need to decide what your workflow is going to be in order to stay organized. This article covers exactly that and provides some useful tips on how to manage all of your code and Jupyter Notebooks: https://medium.com/@rrfd/cookiecutter-data-science-organize-your-projects-atom-and-jupyter-2be7862f487e
+
 
 ## Python Basics
 After speaking with some of those in the course, it seemed good to me to include some more general resources for learning Python. If you've never picked up Python before checkout the following links. Use as little or as much of each of these as you feel is necessary. The goal of these resources is to get you up to speed on how to write Python code at all. Some of these can be a little slow but if you stick with them, I'm sure you'll learn what you need to get off the ground.
@@ -28,10 +28,19 @@ Resource(s)
 - A super simple guidline to getting going fast with Git. Just the basics and nothing else. https://rogerdudler.github.io/git-guide/
 
 ### Tutorial 2 - Introduction to Jupyter and Virtual Environments
-TO BE COMPLETED
+This lesson will focus on a few things to help you get set up and prepared to start analyzing data in Python. I've listed out what we'll cover below.
+
+- What is Jupyter Notebook?
+  - How do you start Jupyter in your local environment?
+  - How do I use Jupyter on Purdue's cluster?
+  - Magics? Yup, we're doing sorcery now!
+- What is a virtual Environment and why is it important?
+  - Setting up virtual environments.  
+- How should we keep our data science projects clean?
 
 Resource(s)
 - A talk from Pycon 2015 describing Jupyter Notebooks generally and covering the use of magics in Jupyter: https://www.youtube.com/watch?v=zxkdO07L29Q
+- As your projects become more involved, you'll need to decide what your workflow is going to be in order to stay organized. This article covers exactly that and provides some useful tips on how to manage all of your code and Jupyter Notebooks: https://medium.com/@rrfd/cookiecutter-data-science-organize-your-projects-atom-and-jupyter-2be7862f487e
 
 ### Tutorial 3 - Visualization Libraries and the Basics of Visualization
 TO BE COMPLETED
