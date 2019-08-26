@@ -10,7 +10,7 @@ The following items are some tools that you may find useful in your time working
 ## General Resources
 Any resources that don't have a clear home in the following tutorials that I still think are useful will reside here.
 
-- If you want to use a desktop session for one Purdue's clusters, I'd recommend using the thinlinc client. It tends to be a little smoother than running it from a browser. https://www.cendio.com/thinlinc/download
+- If you want to use a desktop session for Purdue's clusters, I'd recommend using the thinlinc client. It tends to be a little smoother than running it from a browser. https://www.cendio.com/thinlinc/download
 
 ## Python Basics
 After speaking with some of those in the course, it seemed good to me to include some more general resources for learning Python. If you've never picked up Python before checkout the following links. Use as little or as much of each of these as you feel is necessary. The goal of these resources is to get you up to speed on how to write Python code at all. Some of these can be a little slow but if you stick with them, I'm sure you'll learn what you need to get off the ground.
