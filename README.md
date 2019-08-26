@@ -12,6 +12,12 @@ Any resources that don't have a clear home in the following tutorials that I sti
 
 - As your projects become more involved, you'll need to decide what your workflow is going to be in order to stay organized. This article covers exactly that and provides some useful tips on how to manage all of your code and Jupyter Notebooks: https://medium.com/@rrfd/cookiecutter-data-science-organize-your-projects-atom-and-jupyter-2be7862f487e
 
+## Python Basics
+After speaking with some of those in the course, it seemed good to me to include some more general resources for learning Python. If you've never picked up Python before checkout the following links. Use as little or as much of each of these as you feel is necessary. The goal of these resources is to get you up to speed on how to write Python code at all. Some of these can be a little slow but if you stick with them, I'm sure you'll learn what you need to get off the ground.
+
+- A tutorial from freecodecamp on starting out with Python: https://www.youtube.com/watch?v=rfscVS0vtbw
+- Datacamp is chalk full of excellent tutorials tailored for Data Science. They teach quite a few tutorials on Python and R: https://www.datacamp.com/
+
 ## Tutorials
 
 ### Tutorial 1 - Introduction to Anaconda and Git
