@@ -11,7 +11,6 @@ The following items are some tools that you may find useful in your time working
 Any resources that don't have a clear home in the following tutorials that I still think are useful will reside here.
 
 
-
 ## Python Basics
 After speaking with some of those in the course, it seemed good to me to include some more general resources for learning Python. If you've never picked up Python before checkout the following links. Use as little or as much of each of these as you feel is necessary. The goal of these resources is to get you up to speed on how to write Python code at all. Some of these can be a little slow but if you stick with them, I'm sure you'll learn what you need to get off the ground.
 
@@ -41,6 +40,7 @@ This lesson will focus on a few things to help you get set up and prepared to st
 Resource(s)
 - A talk from Pycon 2015 describing Jupyter Notebooks generally and covering the use of magics in Jupyter: https://www.youtube.com/watch?v=zxkdO07L29Q
 - As your projects become more involved, you'll need to decide what your workflow is going to be in order to stay organized. This article covers exactly that and provides some useful tips on how to manage all of your code and Jupyter Notebooks: https://medium.com/@rrfd/cookiecutter-data-science-organize-your-projects-atom-and-jupyter-2be7862f487e
+- Speaking of cookie-cutter data science, here is the home page for the project. This site has a wealth of information on how to structure your data science work. Keep in mind, these aren't rules that must always be followed. You have the freedom to modify things as you see fit! https://drivendata.github.io/cookiecutter-data-science/
 
 ### Tutorial 3 - Visualization Libraries and the Basics of Visualization
 TO BE COMPLETED
