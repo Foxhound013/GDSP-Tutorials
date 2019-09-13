@@ -16,7 +16,15 @@ Any resources that don't have a clear home in the following tutorials that I sti
 After speaking with some of those in the course, it seemed good to me to include some more general resources for learning Python. If you've never picked up Python before checkout the following links. Use as little or as much of each of these as you feel is necessary. The goal of these resources is to get you up to speed on how to write Python code at all. Some of these can be a little slow but if you stick with them, I'm sure you'll learn what you need to get off the ground.
 
 - A tutorial from freecodecamp on starting out with Python: https://www.youtube.com/watch?v=rfscVS0vtbw
-- Datacamp is chalk full of excellent tutorials tailored for Data Science. They teach quite a few tutorials on Python and R: https://www.datacamp.com/
+-Interactive online tutorials:
+  - Datacamp is chalk full of excellent tutorials tailored for Data Science. They teach quite a few tutorials on Python and R: https://www.datacamp.com/
+  - Dataquest is much like datacamp in that it is tailored to data science: https://app.dataquest.io/today
+  - Codecademy is the place many have gotten started learning a language for the first time: https://www.codecademy.com/learn/learn-python
+  - HackerRank is a great resource for learning Python basics. It has tons of code tests to try out, all of which are labeled with a difficulty. For better or worse, many employers use this sort of test to determine whether or not to bring you in for an in person interview. Practice here will definitely help you out in those areas and should provide plenty of fodder for self study: https://www.hackerrank.com/
+
+- A condensed list of basic syntax and commands: https://www.tutorialspoint.com/python/index.htm
+
+- A cheatsheet of the commands commonly used in Python: https://www.pythonforbeginners.com/cheatsheet/python-cheat-sheets
 
 ## Tutorials
 
