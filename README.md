@@ -44,16 +44,25 @@ Resource(s)
 - Speaking of cookie-cutter data science, here is the home page for the project. This site has a wealth of information on how to structure your data science work. Keep in mind, these aren't rules that must always be followed. You have the freedom to modify things as you see fit! https://drivendata.github.io/cookiecutter-data-science/
 - While I **realy** like Jupyter Notebooks, they do have their limitations. It is a tool and just like any tool, it can be abused and misused. Jupyter Notebooks shine as a way to demonstrate an analysis and it's workflow, Exploratory Data Analysis (EDA), or for prototyping but when things get much more complicated you should consider pulling your code from the notebook into a regular Python project. https://towardsdatascience.com/5-reasons-why-jupyter-notebooks-suck-4dc201e27086
 
-### Tutorial 3 - Visualization Libraries and the Basics of Visualization
+### Tutorial 3 - Data Structures in Python - The Basics to Numpy
+This lesson is intended to take us back to the basics and build from there. We'll be answering the following questions . . .
+- What are lists, tuples, and dictionaries? 
+- How are each of these different and under what circumstances should I use each? 
+- How do I interact with these different data structures?
+- What is Numpy?
+- How do I work with Numpy?
+
+If we can't finish this lesson in time, we'll continue where we left off for Tutorial 4. This document will be update to reflect such a scenario with listings for **Tutorial 3a** and **Tutorial 3b**
+
+### Tutorial 4 - A Deep Dive on Pandas and Introduction to Scipy.
 TO BE COMPLETED
 
-### Tutorial 4 - A Deep Dive on Pandas
-TO BE COMPLETED
-
-### Tutorial 5 - Numpy and Scipy: Python's "Scientific Stack"
+### Tutorial 5 - Visualization Libraries and the Basics of Visualization
 TO BE COMPLETED
 
 ### Tutorial 6 - Alternative to Pandas: Dask
 TO BE COMPLETED
 
-### Tutorial 7 - TO BE DETERMINED: POTENTIALLY PYSPARK?
+### Tutorial 7 - To Be Determined. Maybe PySpark?
+TO BE COMPLETED
+
