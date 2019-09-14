@@ -17,11 +17,12 @@ After speaking with some of those in the course, it seemed good to me to include
 
 - A tutorial from freecodecamp on starting out with Python: https://www.youtube.com/watch?v=rfscVS0vtbw
 
-- Interactive online tutorials:
-  - Datacamp is chalk full of excellent tutorials tailored for Data Science. They teach quite a few tutorials on Python and R: https://www.datacamp.com/
+- Interactive online tutorials/practice:
+  - Datacamp is chalk full of excellent tutorials tailored for Data Science. They teach quite a few tutorials on Python and R: https://www.datacamp.com
   - Dataquest is much like datacamp in that it is tailored to data science: https://app.dataquest.io/today
   - Codecademy is the place many have gotten started learning a language for the first time: https://www.codecademy.com/learn/learn-python
-  - HackerRank is a great resource for learning Python basics. It has tons of code tests to try out, all of which are labeled with a difficulty. For better or worse, many employers use this sort of test to determine whether or not to bring you in for an in person interview. Practice here will definitely help you out in those areas and should provide plenty of fodder for self study: https://www.hackerrank.com/
+  - HackerRank is a great resource for learning Python basics. It has tons of code tests to try out, all of which are labeled with a difficulty. For better or worse, many employers use this sort of test to determine whether or not to bring you in for an in person interview. Practice here will definitely help you out in those areas and should provide plenty of fodder for self study: https://www.hackerrank.com
+  - LeetCode is pretty similar to HackerRank. If you're looking to challenge yourself on algorithms or get practice with feedback, this is a good go to: https://leetcode.com
 
 - A condensed list of basic syntax and commands: https://www.tutorialspoint.com/python/index.htm
 
