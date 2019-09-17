@@ -56,13 +56,20 @@ Resource(s)
 
 ### Tutorial 3 - Data Structures in Python - The Basics to Numpy
 This lesson is intended to take us back to the basics and build from there. We'll be answering the following questions . . .
-- What are lists, tuples, and dictionaries? 
+- What are lists, sets, tuples, and dictionaries? 
 - How are each of these different and under what circumstances should I use each? 
 - How do I interact with these different data structures?
 - What is Numpy?
 - How do I work with Numpy?
 
 If we can't finish this lesson in time, we'll continue where we left off for Tutorial 4. This document will be update to reflect such a scenario with listings for **Tutorial 3a** and **Tutorial 3b**
+
+Resource(s)
+- Documentation on Python data structures: https://www.w3schools.com/python/python_lists.asp
+- List comprehensions: https://medium.com/better-programming/list-comprehension-in-python-8895a785550b
+- Info on sets: https://snakify.org/en/lessons/sets/
+- Stackoverflow explanation of tuples: https://stackoverflow.com/a/2174236
+- A good write up on dictionaries: https://medium.com/python-pandemonium/python-dictionaries-45cacc2b76aa
 
 ### Tutorial 4 - A Deep Dive on Pandas and Introduction to Scipy.
 TO BE COMPLETED
