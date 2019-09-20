@@ -89,7 +89,8 @@ TO BE COMPLETED
 ### Tutorial 7 - To Be Determined. Maybe PySpark?
 TO BE COMPLETED
 
+## Contributions
 
-Note: Due to some issues sorting out pull request with those attending the seminar workshops, I've included the Github accounts of contributors to this set of materials and their contributions.
+Due to some issues sorting out pull request with those attending the seminar workshops, I've included the Github accounts of contributors to this set of materials and their contributions.
 
 https://github.com/avnikam : Provided a plethora of great online resources to aid fellow classmates in their learning.
