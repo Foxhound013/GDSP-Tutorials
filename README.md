@@ -64,8 +64,6 @@ This lesson is intended to take us back to the basics and build from there. We'l
 - What is Numpy?
 - How do I work with Numpy?
 
-If we can't finish this lesson in time, we'll continue where we left off for Tutorial 4. This document will be update to reflect such a scenario with listings for **Tutorial 3a** and **Tutorial 3b**
-
 Resource(s)
 - Documentation on Python data structures: https://www.w3schools.com/python/python_lists.asp
 - List comprehensions: https://medium.com/better-programming/list-comprehension-in-python-8895a785550b
@@ -74,14 +72,32 @@ Resource(s)
 - A good write up on dictionaries: https://medium.com/python-pandemonium/python-dictionaries-45cacc2b76aa
 - A general introduction to Numpy: http://cs231n.github.io/python-numpy-tutorial/
 
-### Tutorial 4 - A Deep Dive on Pandas and Introduction to Scipy.
+### Tutorial 4 - Visualization Libraries and the Basics of Visualization
+This lesson will be entirely focused on data visualization options in Python. With Python, you've got quite a few options for visualization. A quick Google search will turn up names like Bokeh, Matplotlib, Plotly, Seaborns, and probably quite a few more. We're going to focus on Matplotlib and Seaborns in Jupyter. This session won't be a deep dive on either of these libraries but it should be enough to get you up and going with them.
+
+For this lesson, we're not going to get into the interactive options, there just isn't enough time. I'd encourage you to take a look at some of the interactive plotting libraries documentation and play around with some of them. We may try to cover interactive visualization options at a later time.
+
+Resource(s)
+- Documentation for the granddaddy of plotting, Matplotlib: https://matplotlib.org/
+  - Color options in Matplotlib: https://matplotlib.org/2.0.2/examples/color/named_colors.html
+  - A good stackoverflow question regarding the use of subplots, even in the case of one plot. This tripped me up for a while too, check it out: https://stackoverflow.com/questions/34162443/why-do-many-examples-use-fig-ax-plt-subplots-in-matplotlib-pyplot-python
+  - The anatomy of Matplotlib figure: https://matplotlib.org/3.1.1/gallery/showcase/anatomy.html
+- Documentation for seaborns, the statistical offspring of Matplotlib: https://seaborn.pydata.org/
+- If you're into R, there is a version of ggplot for Python as well! Check out the documentation here: http://ggplot.yhathq.com/
+  - Note: If its just the style of the styling of a ggplot that you want in your matplotlib plots, you can set themes! In this case, you would use the following snippet of code `plt.style.use('ggplot')`
+- Since we'll be doing visualization, we should probably have a dataset to play with. In my searching I came across this great Medium article that lists out some great repositories for datasets. Check it out here: https://towardsdatascience.com/top-10-great-sites-with-free-data-sets-581ac8f6334
+
+Interactive Plotting Resource(s)
+- If you're into interactive plots, plotly has you covered. Documentation can be found here: https://plot.ly/python/
+- Bokeh is another option, documentation can be found here: https://bokeh.pydata.org/en/latest/index.html
+- Holoviews looks like it may be a good option for larger datasets: http://holoviews.org/index.html
+- Note: You may not want to get **too** overly excited about the interactive plots from plotly and bokeh. My understanding is that they tend to struggle when you get too much data (which is pretty easy to do in the geosciences...). Plotly does seem to be trying to remedy this with WebGL instead of relying on D3.js (a JavaScript framework for visualization that plotly was built on top of). I'm unsure whether or not Bokeh is following a similar development path but I would imagine that it probably is. I'm unsure of how all of these handle bigger datasets but Holoviews seems like it may be more capable in the realm of bigger datasets.
+
+### Tutorial 5 - A Deep Dive on Pandas and Introduction to Scipy.
 TO BE COMPLETED
 
 Resource(s)
 - A general introduction to scipy: https://scipy-lectures.org/
-
-### Tutorial 5 - Visualization Libraries and the Basics of Visualization
-TO BE COMPLETED
 
 ### Tutorial 6 - Alternative to Pandas: Dask
 TO BE COMPLETED
