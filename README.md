@@ -79,10 +79,12 @@ For this lesson, we're not going to get into the interactive options, there just
 
 Resource(s)
 - Documentation for the granddaddy of plotting, Matplotlib: https://matplotlib.org/
+  - A cheat sheet is always a welcomed resource for this sort of thing: https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf
   - Color options in Matplotlib: https://matplotlib.org/2.0.2/examples/color/named_colors.html
   - A good stackoverflow question regarding the use of subplots, even in the case of one plot. This tripped me up for a while too, check it out: https://stackoverflow.com/questions/34162443/why-do-many-examples-use-fig-ax-plt-subplots-in-matplotlib-pyplot-python
   - The anatomy of Matplotlib figure: https://matplotlib.org/3.1.1/gallery/showcase/anatomy.html
-- Documentation for seaborns, the statistical offspring of Matplotlib: https://seaborn.pydata.org/
+- Documentation for seaborn, the statistical offspring of Matplotlib: https://seaborn.pydata.org/
+  - As with matplotlib, there is a cheat sheet for seaborn: https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf
 - If you're into R, there is a version of ggplot for Python as well! Check out the documentation here: http://ggplot.yhathq.com/
   - Note: If its just the style of the styling of a ggplot that you want in your matplotlib plots, you can set themes! In this case, you would use the following snippet of code `plt.style.use('ggplot')`
 - Since we'll be doing visualization, we should probably have a dataset to play with. In my searching I came across this great Medium article that lists out some great repositories for datasets. Check it out here: https://towardsdatascience.com/top-10-great-sites-with-free-data-sets-581ac8f6334
@@ -92,6 +94,8 @@ Interactive Plotting Resource(s)
 - Bokeh is another option, documentation can be found here: https://bokeh.pydata.org/en/latest/index.html
 - Holoviews looks like it may be a good option for larger datasets: http://holoviews.org/index.html
 - Note: You may not want to get **too** overly excited about the interactive plots from plotly and bokeh. My understanding is that they tend to struggle when you get too much data (which is pretty easy to do in the geosciences...). Plotly does seem to be trying to remedy this with WebGL instead of relying on D3.js (a JavaScript framework for visualization that plotly was built on top of). I'm unsure whether or not Bokeh is following a similar development path but I would imagine that it probably is. I'm unsure of how all of these handle bigger datasets but Holoviews seems like it may be more capable in the realm of bigger datasets.
+
+- If you're curious about the landscape of Python Visualization, check that out here: https://www.anaconda.com/wp-content/uploads/2018/12/PythonVisLandscape.jpg
 
 ### Tutorial 5 - A Deep Dive on Pandas and Introduction to Scipy.
 TO BE COMPLETED
