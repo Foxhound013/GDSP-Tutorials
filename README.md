@@ -97,13 +97,19 @@ Interactive Plotting Resource(s)
 
 - If you're curious about the landscape of Python Visualization, check that out here: https://www.anaconda.com/wp-content/uploads/2018/12/PythonVisLandscape.jpg
 
-### Tutorial 5 - A Deep Dive on Pandas and Introduction to Scipy.
-TO BE COMPLETED
+### Tutorial 5 - Pandas Dataframes
+This lesson will be focused on the Pandas library, a core library for just about anyone working with data in Python. This ufnortunately won't be the most in depth tutorial given the width and breadth of Pandas, but it should be enough to get you started.
 
 Resource(s)
-- A general introduction to scipy: https://scipy-lectures.org/
+- The Python documentation and more can be found here: https://pandas.pydata.org/
+- Cheatsheets for these sorts of libraries are always super useful
+  - Datacamp as usual has a pretty nice one: http://datacamp-community-prod.s3.amazonaws.com/dbed353d-2757-4617-8206-8767ab379ab3
+  - Pandas does have an official one though: https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+- Data types available in Pandas: https://pbpython.com/pandas_dtypes.html
+- A more in depth look at Pandas data structures: https://pandas.pydata.org/pandas-docs/stable/getting_started/dsintro.html
+- Data formats that Pandas can natively read: https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html
 
-### Tutorial 6 - Alternative to Pandas: Dask
+### Tutorial 6 - Python & Bash: Sometimes mixing tech just works!
 TO BE COMPLETED
 
 ### Tutorial 7 - To Be Determined. Maybe PySpark?
