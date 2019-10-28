@@ -110,10 +110,18 @@ Resource(s)
 - Data formats that Pandas can natively read: https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html
 
 ### Tutorial 6 - Python & Bash: Sometimes mixing tech just works!
-TO BE COMPLETED
+While it can be a little intimidating to try to pick up another technology like Bash scripting in the midst of learning Python, sometimes its worth it. If you've worked with the command line / terminal before, then you've done Bash scripting (in a way). Bash scripts allow you to issue commands to the system like you would to the command line. Things like ls, pwd, scp, wget, and many others you may be familiar with all can be used in a Bash script. Sometimes there are command line tools that accopmlish a task (wgrib/cdo/etc) that you need to accomplish but they aren't available in Python (or are more difficult to use) and sometimes you need to process those results from that command line tool. Other times, it's just simpler to use a regular wget command to download resources then using wget from within Python. This is precisely when Bash and Python make an effective combination.
 
-### Tutorial 7 - To Be Determined. Maybe PySpark?
-TO BE COMPLETED
+One common task that often comes up is the need to run a Python script multiple times with slightly different input. For one reason or another, perhaps it isn't convenient to modify the script to handle these changing values. This is another instance where Bash can be super handy. Setting up the values you need in Bash is fairly straightforward and passing a parameter to a Python script within Bash is trivial. Before you know it, you can have your Python script generalized with minimal modifications and a Bash script to coordinate it all.
+
+One other use (though I'm sure you could think of more) is to coordinate multiple scripts. Perhaps you've put together multiple scripts that are parts in a process. Sometimes you may want to aggregate these Python scripts into one script and be done but another option is to use a Bash script to coordinate these steps in your process. A Bash script isn't really any different than you calling your Python scripts manually from the command line.
+
+One final word of advice for this tutorial, you do not have to be an expert on Bash to use it. The key to using Bash for these purposes is often times as simple as Googling how to set up the bit you want to do. You know the general programming concepts from Python, just look up how Bash does those same things (like loops or if statements) and you'll be on your way! Bash is great for very simple tasks but becomes difficult to use for complicated tasks. Keep your complicated work in Python. 
+
+Resource(s)
+- If you want a one stop shop to feel mildly comfortable with Bash, this video by Derek Banas covers a lot of ground pretty fast: https://www.youtube.com/watch?v=hwrnmQumtPw&t=468s
+- Another decent tutorial set can be found here: https://linuxconfig.org/bash-scripting-tutorial
+- A good run down of the various chmod codes can be found here: https://askubuntu.com/a/485001
 
 ## Contributions
 
