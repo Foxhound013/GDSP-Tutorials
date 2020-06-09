@@ -1,130 +1,30 @@
-# GDSP-Tutorials
-This repository serves as a home for all tutorials developed by myself for Purdue's GeoData Science for Professionals (GDSP) Masters of Science Program. The tutorials and order in which they are to be taught can be found below.
+# Welcome to the GDSP Python Tutorial
+This is the second iteration of this course. Version one and all of its associated course materials can be found in the CourseV1-2019 folder. This updated version of the course will include significant updates to the curriculum to be much more complete than what the original course scope allowed for. It is my hope that this repository will be a significant help to you in your journey to learn and use Python in your studies/research, career, and so much more. I hope you enjoy this course and if you notice any mistakes (I'm sure you will), take a crack at correcting these errors by submitting a pull request. You'll learn from making these corrections and benefit the community using these tutorials as well!
 
-## Potentially Useful Tools
-The following items are some tools that you may find useful in your time working with Python.
+This course was developed in collaboration with Jiayuan Huang, Jiayuan has provided much of the machine learning (ML) and deep learning (DL) content.
 
-- PyCharm: This is a full fledged IDE (Integrated Development Environment). I've worked with it some and its an excellent tool. The community edition lacks the ability to SSH into remote servers and work on the code remotely though. For projects on a personal machine though, I can't recommend it enough. https://www.jetbrains.com/pycharm/
-- VS Code: Visual Studio Code is a text editor by microsoft. You can configure this tool with a slew of extensions (some of which I will try to cover in one of our sessions). You can work on a multitude of languages with this text editor and SSH into one of the campus clusters to work on your code remotely. https://code.visualstudio.com/
+## Disclaimer
+Programming doesn't come as a second nature to most of us despite what it might seem when you look around at your peers. Learning a new programming language takes a lot of effort, time, and most importantly practice. Don't get down on yourself because you have to search something that feels relatively trivial every 30 seconds or so, it's all part of the learning process. In my experience, it takes about a month to two months of consistent every day work (over a 5 day work week, I don't mean 24 hours a day 7 days a week here) to really start to get the hang of things. At that two month mark you'll start to feel a lot more comfortable with the language you're working in and have a rough idea of how to do a lot of things that were very challenging at the start. Keep coding, keep improving, and don't forget to take breaks from the computer! Sometimes stepping away and coming back to a problem later is all that you need to figure it out.
 
-## General Resources
-Any resources that don't have a clear home in the following tutorials that I still think are useful will reside here.
+One final note on problem solving in your code, I've found that if I'm really stuck it can be profoundly beneficial to talk through the problem at hand with my wife. She doesn't program in any way shape or form but she can listen and ask questions. I owe many of my solved problems to her and her outside perspective.
 
-- If you want to use a desktop session for Purdue's clusters, I'd recommend using the thinlinc client. It tends to be a little smoother than running it from a browser. https://www.cendio.com/thinlinc/download
+Enough with the disclaimers, let's get to the course!
 
-## Python Basics
-After speaking with some of those in the course, it seemed good to me to include some more general resources for learning Python. If you've never picked up Python before checkout the following links. Use as little or as much of each of these as you feel is necessary. The goal of these resources is to get you up to speed on how to write Python code at all. Some of these can be a little slow but if you stick with them, I'm sure you'll learn what you need to get off the ground.
+# Course Structure
+This course will take you from the basics of Python programming to some of the basics of machine learning (ML) and deap learning (DL) in Python. The course outline can be seen below.
 
-- A tutorial from freecodecamp on starting out with Python: https://www.youtube.com/watch?v=rfscVS0vtbw
-- Information on Python Packages: https://pypi.org/
+This content outline is subject to change.
 
-- Interactive online tutorials/practice:
-  - Datacamp is chalk full of excellent tutorials tailored for Data Science. They teach quite a few tutorials on Python and R: https://www.datacamp.com
-  - Dataquest is much like datacamp in that it is tailored to data science: https://app.dataquest.io/today
-  - There are a plethora of nanodegrees out there for Python, here is one: https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104
-  - Codecademy is the place many have gotten started learning a language for the first time: https://www.codecademy.com/learn/learn-python
-  - HackerRank is a great resource for learning Python basics. It has tons of code tests to try out, all of which are labeled with a difficulty. For better or worse, many employers use this sort of test to determine whether or not to bring you in for an in person interview. Practice here will definitely help you out in those areas and should provide plenty of fodder for self study: https://www.hackerrank.com
-  - LeetCode is pretty similar to HackerRank. If you're looking to challenge yourself on algorithms or get practice with feedback, this is a good go to: https://leetcode.com
 
-- A condensed list of basic syntax and commands: https://www.tutorialspoint.com/python/index.htm
-
-- A cheatsheet of the commands commonly used in Python: https://www.pythonforbeginners.com/cheatsheet/python-cheat-sheets
-
-## Tutorials
-
-### Tutorial 1 - Introduction to Anaconda and Git
-See the corresponding folder for the slide deck. I've included an excellent crash course on Git below. Don't stress too much about the many commands you can use with Git. Get the basics down and you'll learn the other commands as you need them.
-
-Resource(s)
-- An excellent crash course on Git's usage by Traversy Media: https://www.youtube.com/watch?v=SWYqp7iY_Tc
-- A super simple guidline to getting going fast with Git. Just the basics and nothing else. https://rogerdudler.github.io/git-guide/
-
-### Tutorial 2 - Introduction to Jupyter and Virtual Environments
-This lesson will focus on a few things to help you get set up and prepared to start analyzing data in Python. I've listed out what we'll cover below.
-
-- What is Jupyter Notebook?
-  - How do you start Jupyter in your local environment?
-  - How do I use Jupyter on Purdue's cluster?
-  - Magics? Yup, we're doing sorcery now!
-- What is a virtual Environment and why is it important?
-  - Setting up virtual environments.  
-- How should we keep our data science projects clean?
-
-Resource(s)
-- A talk from Pycon 2015 describing Jupyter Notebooks generally and covering the use of magics in Jupyter: https://www.youtube.com/watch?v=zxkdO07L29Q
-- As your projects become more involved, you'll need to decide what your workflow is going to be in order to stay organized. This article covers exactly that and provides some useful tips on how to manage all of your code and Jupyter Notebooks: https://medium.com/@rrfd/cookiecutter-data-science-organize-your-projects-atom-and-jupyter-2be7862f487e
-- Speaking of cookie-cutter data science, here is the home page for the project. This site has a wealth of information on how to structure your data science work. Keep in mind, these aren't rules that must always be followed. You have the freedom to modify things as you see fit! https://drivendata.github.io/cookiecutter-data-science/
-- While I **realy** like Jupyter Notebooks, they do have their limitations. It is a tool and just like any tool, it can be abused and misused. Jupyter Notebooks shine as a way to demonstrate an analysis and it's workflow, Exploratory Data Analysis (EDA), or for prototyping but when things get much more complicated you should consider pulling your code from the notebook into a regular Python project. https://towardsdatascience.com/5-reasons-why-jupyter-notebooks-suck-4dc201e27086
-
-### Tutorial 3 - Data Structures in Python - The Basics to Numpy
-This lesson is intended to take us back to the basics and build from there. We'll be answering the following questions . . .
-- What are lists, sets, tuples, and dictionaries? 
-- How are each of these different and under what circumstances should I use each? 
-- How do I interact with these different data structures?
-- What is Numpy?
-- How do I work with Numpy?
-
-Resource(s)
-- Documentation on Python data structures: https://www.w3schools.com/python/python_lists.asp
-- List comprehensions: https://medium.com/better-programming/list-comprehension-in-python-8895a785550b
-- Info on sets: https://snakify.org/en/lessons/sets/
-- Stackoverflow explanation of tuples: https://stackoverflow.com/a/2174236
-- A good write up on dictionaries: https://medium.com/python-pandemonium/python-dictionaries-45cacc2b76aa
-- A general introduction to Numpy: http://cs231n.github.io/python-numpy-tutorial/
-
-### Tutorial 4 - Visualization Libraries and the Basics of Visualization
-This lesson will be entirely focused on data visualization options in Python. With Python, you've got quite a few options for visualization. A quick Google search will turn up names like Bokeh, Matplotlib, Plotly, Seaborns, and probably quite a few more. We're going to focus on Matplotlib and Seaborns in Jupyter. This session won't be a deep dive on either of these libraries but it should be enough to get you up and going with them.
-
-For this lesson, we're not going to get into the interactive options, there just isn't enough time. I'd encourage you to take a look at some of the interactive plotting libraries documentation and play around with some of them. We may try to cover interactive visualization options at a later time.
-
-Resource(s)
-- Documentation for the granddaddy of plotting, Matplotlib: https://matplotlib.org/
-  - A cheat sheet is always a welcomed resource for this sort of thing: https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf
-  - Color options in Matplotlib: https://matplotlib.org/2.0.2/examples/color/named_colors.html
-  - A good stackoverflow question regarding the use of subplots, even in the case of one plot. This tripped me up for a while too, check it out: https://stackoverflow.com/questions/34162443/why-do-many-examples-use-fig-ax-plt-subplots-in-matplotlib-pyplot-python
-  - The anatomy of Matplotlib figure: https://matplotlib.org/3.1.1/gallery/showcase/anatomy.html
-- Documentation for seaborn, the statistical offspring of Matplotlib: https://seaborn.pydata.org/
-  - As with matplotlib, there is a cheat sheet for seaborn: https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf
-- If you're into R, there is a version of ggplot for Python as well! Check out the documentation here: http://ggplot.yhathq.com/
-  - Note: If its just the style of the styling of a ggplot that you want in your matplotlib plots, you can set themes! In this case, you would use the following snippet of code `plt.style.use('ggplot')`
-- Since we'll be doing visualization, we should probably have a dataset to play with. In my searching I came across this great Medium article that lists out some great repositories for datasets. Check it out here: https://towardsdatascience.com/top-10-great-sites-with-free-data-sets-581ac8f6334
-
-Interactive Plotting Resource(s)
-- If you're into interactive plots, plotly has you covered. Documentation can be found here: https://plot.ly/python/
-- Bokeh is another option, documentation can be found here: https://bokeh.pydata.org/en/latest/index.html
-- Holoviews looks like it may be a good option for larger datasets: http://holoviews.org/index.html
-- Note: You may not want to get **too** overly excited about the interactive plots from plotly and bokeh. My understanding is that they tend to struggle when you get too much data (which is pretty easy to do in the geosciences...). Plotly does seem to be trying to remedy this with WebGL instead of relying on D3.js (a JavaScript framework for visualization that plotly was built on top of). I'm unsure whether or not Bokeh is following a similar development path but I would imagine that it probably is. I'm unsure of how all of these handle bigger datasets but Holoviews seems like it may be more capable in the realm of bigger datasets.
-
-- If you're curious about the landscape of Python Visualization, check that out here: https://www.anaconda.com/wp-content/uploads/2018/12/PythonVisLandscape.jpg
-
-### Tutorial 5 - Pandas Dataframes
-This lesson will be focused on the Pandas library, a core library for just about anyone working with data in Python. This ufnortunately won't be the most in depth tutorial given the width and breadth of Pandas, but it should be enough to get you started.
-
-Resource(s)
-- The Python documentation and more can be found here: https://pandas.pydata.org/
-- Cheatsheets for these sorts of libraries are always super useful
-  - Datacamp as usual has a pretty nice one: http://datacamp-community-prod.s3.amazonaws.com/dbed353d-2757-4617-8206-8767ab379ab3
-  - Pandas does have an official one though: https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
-- Data types available in Pandas: https://pbpython.com/pandas_dtypes.html
-- A more in depth look at Pandas data structures: https://pandas.pydata.org/pandas-docs/stable/getting_started/dsintro.html
-- Data formats that Pandas can natively read: https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html
-
-### Tutorial 6 - Python & Bash: Sometimes mixing tech just works!
-While it can be a little intimidating to try to pick up another technology like Bash scripting in the midst of learning Python, sometimes its worth it. If you've worked with the command line / terminal before, then you've done Bash scripting (in a way). Bash scripts allow you to issue commands to the system like you would to the command line. Things like ls, pwd, scp, wget, and many others you may be familiar with all can be used in a Bash script. Sometimes there are command line tools that accopmlish a task (wgrib/cdo/etc) that you need to accomplish but they aren't available in Python (or are more difficult to use) and sometimes you need to process those results from that command line tool. Other times, it's just simpler to use a regular wget command to download resources then using wget from within Python. This is precisely when Bash and Python make an effective combination.
-
-One common task that often comes up is the need to run a Python script multiple times with slightly different input. For one reason or another, perhaps it isn't convenient to modify the script to handle these changing values. This is another instance where Bash can be super handy. Setting up the values you need in Bash is fairly straightforward and passing a parameter to a Python script within Bash is trivial. Before you know it, you can have your Python script generalized with minimal modifications and a Bash script to coordinate it all.
-
-One other use (though I'm sure you could think of more) is to coordinate multiple scripts. Perhaps you've put together multiple scripts that are parts in a process. Sometimes you may want to aggregate these Python scripts into one script and be done but another option is to use a Bash script to coordinate these steps in your process. A Bash script isn't really any different than you calling your Python scripts manually from the command line.
-
-One final word of advice for this tutorial, you do not have to be an expert on Bash to use it. The key to using Bash for these purposes is often times as simple as Googling how to set up the bit you want to do. You know the general programming concepts from Python, just look up how Bash does those same things (like loops or if statements) and you'll be on your way! Bash is great for very simple tasks but becomes difficult to use for complicated tasks. Keep your complicated work in Python. 
-
-Resource(s)
-- If you want a one stop shop to feel mildly comfortable with Bash, this video by Derek Banas covers a lot of ground pretty fast: https://www.youtube.com/watch?v=hwrnmQumtPw&t=468s
-- Another decent tutorial set can be found here: https://linuxconfig.org/bash-scripting-tutorial
-- A good run down of the various chmod codes can be found here: https://askubuntu.com/a/485001
-
-## Contributions
-
-Due to some issues sorting out pull request with those attending the seminar workshops, I've included the Github accounts of contributors to this set of materials and their contributions.
-
-https://github.com/avnikam : Provided a plethora of great online resources to aid fellow classmates in their learning.
+1. Getting Started with Python - Installation of Anaconda and Managing Virtual Environments.
+2. Python Basics - Something like a typical introduction to programming.
+3. Python Visualization with Seabornes - Seabornes is built on Matplotlib but acts a little more like lattice and has some other creature comforts built in.
+4. Python Mapping - Still not sure of where to locate this one but here will do for now.
+5. Python Data Stack 1 - Numpy and Scipy, get the students used to working with vectorized operations in Python.
+6. Python Data Stack 2 - Pandas dataframes and the many functions built into pandas (include short bit pointing students to xarray for larger datasets)
+7. Pulling Together the Basics - A mini project using everything up to this point.
+8. Stepping Toward ML/Modeling - An intro to sci-kit learn.
+9. A Mini Project with sci-kit learn.
+10. An Introduction to Tensorflow (Jiayuan)
+11. Tensorflow Part 2 (Jiayuan)
+12. Final Project - Pulling it all together.
