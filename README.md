@@ -3,6 +3,8 @@ This is the second iteration of this course. Version one and all of its associat
 
 This course was developed in collaboration with Jiayuan Huang, Jiayuan has provided much of the machine learning (ML) and deep learning (DL) content.
 
+Please note that the tutorial materials are located in their respective folders and are numbered in the sequence they are intended to be done. Unfortunately GitHub sorts them out of order and to my knowledge there isn't a good way to fix this without switching to an alphabetic tutorial naming scheme (i.e. Tutorial A, Tutorial B, etc). To those of you that find this bothersome (like myself), I sincerely apologize, now on with the show. :)
+
 ## Disclaimer
 Programming doesn't come as a second nature to most of us despite what it might seem when you look around at your peers. Learning a new programming language takes a lot of effort, time, and most importantly practice. Don't get down on yourself because you have to search something that feels relatively trivial every 30 seconds or so, it's all part of the learning process. In my experience, it takes about a month to two months of consistent every day work (over a 5 day work week, I don't mean 24 hours a day 7 days a week here) to really start to get the hang of things. At that two month mark you'll start to feel a lot more comfortable with the language you're working in and have a rough idea of how to do a lot of things that were very challenging at the start. Keep coding, keep improving, and don't forget to take breaks from the computer! Sometimes stepping away and coming back to a problem later is all that you need to figure it out.
 
