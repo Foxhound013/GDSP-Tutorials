@@ -19,9 +19,9 @@ This content outline is subject to change.
 1. Getting Started with Python - Installation of Anaconda and Managing Virtual Environments.
 2. Python Basics - Something like a typical introduction to programming.
 3. Python Visualization with Seabornes - Seabornes is built on Matplotlib but acts a little more like lattice and has some other creature comforts built in.
-4. Python Mapping - Still not sure of where to locate this one but here will do for now.
-5. Python Data Stack 1 - Numpy and Scipy, get the students used to working with vectorized operations in Python.
-6. Python Data Stack 2 - Pandas dataframes and the many functions built into pandas (include short bit pointing students to xarray for larger datasets)
+4. Python Data Stack 1 - Numpy and Scipy, get the students used to working with vectorized operations in Python.
+5. Python Data Stack 2 - Pandas dataframes and the many functions built into pandas (include short bit pointing students to xarray for larger datasets)
+6. Python Mapping - Still not sure of where to locate this one but here will do for now.
 7. Pulling Together the Basics - A mini project using everything up to this point.
 8. Stepping Toward ML/Modeling - An intro to sci-kit learn.
 9. A Mini Project with sci-kit learn.
