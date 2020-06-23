@@ -1,0 +1,16 @@
+# Tutorial 1 - Getting Started with Python
+Welcome to the first part of the course, this tutorial will lay the groundwork for everything we do going forward. In this lesson we're going to cover following . . .
+ - Installing Python through Anaconda
+ - Setting up Virtual Environments
+ - Jupyter Lab / Jupyter Notebooks
+
+ ## Installing Python through Anaconda
+ If you're completely new to Python, you might be wanting to know "Why aren't we just going to www.python.org and installing the latest version of Python?" and that would be a fair question. That is certainly a viable option but for the purposes of this course we're going to make use of a distribution of Python called Anaconda. A distribution is a collection of software that are quick and easy to install and is ready to go out-of-the-box. This is what makes Anaconda a convenient option when working with Python.
+
+ Anaconda is one of the most (if not the most) popular distributions of Python for data science purposes. Installing Anaconda will get you access to Python and many very useful data science libraries right out-of-the-box (i.e. matplotlib, numpy, scipy, etc). You can go to https://www.anaconda.com/products/individual and scroll to the bottom of the page to download Anaconda for your system (be it Windows, MacOS, or Linux). At the time of writing this tutorial, the installers available are for Python 3.7 and 2.7, we will be downloading the 3.7 version. **DO NOT DOWNLOAD THIS LINK, *YET***. 
+ 
+ Sorry for the strong wording there but it was important to grab your attention before you jumped too far ahead. If you want to download from the aforementioned link, that is perfectly fine but be aware that this is going to be a very large download (at least a few gigabytes). The advantage of downloading the full Anaconda distribution is you get a ton of built in libraries, Anaconda Navigator (which provides a nice graphical interface for installing packages and tinkering with virtual environments), Jupyter, and Spyder. On your personal machine this is a great option, unfortunately when you move to the cluster you lose these niceties and are required to work from the command line. The alternative to the full fat Anaconda is called Miniconda, which only includes conda (the library/package distribution system for Anaconda), Python, and a few useful packages like pip (the base Python package manager). This tutorial is going to take the conservative route and step you through installation of miniconda. This will hopefully make the transition to the cluster environment easier for you in the future.
+
+ To install miniconda go to https://docs.conda.io/en/latest/miniconda.html and find the Python 3.7 version for your OS. Miniconda is only roughly 55 megabytes, so it's not a tiny download but should be much more manageable on whatever network you're on then a multi-gigabyte download. When it is finished downloading open the file you downloaded and you should see something like the following image.
+
+ ![Install Miniconda - First Screen](Tutorial 1 - Getting Started with Python\images\installingMiniconda1.png)
