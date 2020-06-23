@@ -13,4 +13,4 @@ Welcome to the first part of the course, this tutorial will lay the groundwork f
 
  To install miniconda go to https://docs.conda.io/en/latest/miniconda.html and find the Python 3.7 version for your OS. Miniconda is only roughly 55 megabytes, so it's not a tiny download but should be much more manageable on whatever network you're on then a multi-gigabyte download. When it is finished downloading open the file you downloaded and you should see something like the following image.
 
- ![Install Miniconda - First Screen](https://github.com/Foxhound013/GDSP-Tutorials/tree/master/Tutorial%201%20-%20Getting%20Started%20with%20Python/images\installingMiniconda1.png)
+ ![Install Miniconda - First Screen](./installingMiniconda1.png)
