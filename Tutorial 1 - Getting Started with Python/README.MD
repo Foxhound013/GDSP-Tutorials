@@ -1,8 +1,9 @@
 # Tutorial 1 - Getting Started with Python
 Welcome to the first part of the course, this tutorial will lay the groundwork for everything we do going forward. In this lesson we're going to cover following . . .
  - Installing Python through Anaconda
+ - Jupyter Lab / Jupyter Notebooks (and Spyder)
  - Setting up Virtual Environments
- - Jupyter Lab / Jupyter Notebooks
+ 
 
  ## Installing Python through Anaconda
  If you're completely new to Python, you might be wanting to know "Why aren't we just going to www.python.org and installing the latest version of Python?" and that would be a fair question. That is certainly a viable option but for the purposes of this course we're going to make use of a distribution of Python called Anaconda. A distribution is a collection of software that are quick and easy to install and is ready to go out-of-the-box. This is what makes Anaconda a convenient option when working with Python.
@@ -13,4 +14,35 @@ Welcome to the first part of the course, this tutorial will lay the groundwork f
 
  To install miniconda go to https://docs.conda.io/en/latest/miniconda.html and find the Python 3.7 version for your OS. Miniconda is only roughly 55 megabytes, so it's not a tiny download but should be much more manageable on whatever network you're on then a multi-gigabyte download. When it is finished downloading open the file you downloaded and you should see something like the following image.
 
- ![Install Miniconda - First Screen](./installingMiniconda1.png)
+![Install Miniconda - First Screen](./installingMiniconda1.png)
+
+Work your way through the installation process and let it install miniconda into the default location, for me on windows it is *C:\Users\USERNAME\miniconda3*. Accept the defaults and install miniconda. **If you already have Python on your system, you may want to uncheck the box that says *Register Anaconda as my default Python 3.7*.**
+
+Congrats! You've got Python and the conda package manager installed! To interact with Anaconda you'll need to run the Anaconda prompt. Below I've included an image of what you'll see on Windows below. The Anaconda prompt is how you'll interact with Anaconda, more on that in a minute.
+
+![Anaconada Prompts](./AnacondaPrompts.png)
+
+Now, we're going to need our Python editors, i.e. Jupyter or Spyder. We'll cover this in the next section.
+
+One quick aside before going on, if you're curious about using anaconda navigator still (the GUI that was mentioned previously) you can still get that with Miniconda. Open your Anaconda Prompt and run the following command *conda install anaconda-navigator*. This will install various components required for setting up Anaconda Navigator which will give you a GUI way of handling launching Jupyter and Spyder as well as handling virtual environments. We won't be using navigator going forward but feel free to make use of it!
+
+## Jupyter Lab / Jupyter Notebooks and Spyder
+In this section we'll cover the setup of our code editor environments, Jupyter or Spyder. We'll primarily use Jupyter in these tutorials but both are excellent tools and how to install both tools will be covered here.
+
+To get started installing Jupyter Lab and Jupyter Notebook, open your Anconda Prompt and run *conda install -c conda-forge jupyterlab*. You'll be prompted about whether you want to proceed or not, enter *y* and let the installer proceed. Various packages necessary to use Jupyter Lab will be installed, this shouldn't take too long. You're prompt should look something like below.
+
+![JupyterLab Install](./InstallingJupyterLab.png)
+
+Once the installation has been completed, also run *conda install -c conda-forge notebook*. 
+
+Finally, let's get Spyder set up. If you're familiar with R and R Studio, you'll very likely enjoy Spyder. It is intended to be a very similar to the experience one has in R Studio. It's not nearly as refined in my opinion but it is a great tool. Run *conda install -c anaconda spyder* in your Anaconda prompt.
+
+Now if you want to open any of these programs, you can either open them from your start menu, application launcher, or from the Anaconda prompt. You can open any of these code editors from your Anaconda Prompt by running the following commands. If you want to quit jupyter (lab or notebook) just close the web browser page that has been opened and use ctrl+c or cmd+c in your prompt to quit.
+
+ - jupyter lab
+ - jupyter notebook
+ - spyder
+
+## Setting up Virtual Environments
+
+
