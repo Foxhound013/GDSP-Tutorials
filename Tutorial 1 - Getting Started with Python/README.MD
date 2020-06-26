@@ -54,15 +54,15 @@ Okay, enough chit chat about what virtual environments are, how do you set one u
 
 Open up your Anaconda prompt like we had done before. Let's see what environments are available at first ```conda env list```. Since you haven't created anything yet, you'll only have the base directory, you should see something like the image below.
 
-![Base Conda Environments](./CondaEnvironments_Base.png)
+![Base Conda Environments](./condaEnvironments_Base.png)
 
 Let's create an environment for the work we're going to do going forward. Creating an environment is as simple as ```conda create --name MY_ENVIRONMENT_NAME```. You can fill in whatever name you would like here but for our purposes I'd recommend naming it the same as what I'm naming it, *gdsp_tutorials*. Afterward, when we list out the environments you should see it like below. In this screenshot I've included what the output of setting up an environment looks like.
 
-![Creating a Conda Environment](./conda_SettingUpEnv_.png)
+![Creating a Conda Environment](./conda_SettingUpEnv.png)
 
 Now to switch to this environment and start installing packages simply run ```conda activate gdsp_tutorials```. To leave that environment you can run ```conda deactivate```, since only one environment is active at a time, you don't have to specify which environment you're deactivating. When you activate the environment, you'll notice that in front of the current line in your terminal, you'll have the environment name in parenthesis like what is shown below.
 
-![Activating an Environment.](./condaActivate_.png)
+![Activating an Environment.](./condaActivate.png)
 
 If you want to do some more reading on managing your anaconda environments, check out the following resource: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html.
 
