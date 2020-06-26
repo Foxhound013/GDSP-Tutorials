@@ -43,6 +43,8 @@ Now if you want to open any of these programs, you can either open them from you
  - ```jupyter notebook```
  - ```spyder```
 
+ One final note, Jupyter Lab and Jupyter Notebook aren't that different. I have a tendency to use Jupyter Lab since it is a little bit newer and has a few more features.
+
 ## Setting up Virtual Environments
 Time for the final portion of this section, virtual environments! What are virtual environments? Virtual environments are essential to ensuring that your work is reproducible (one of the cornerstones of good scientific work) as they provide a sort of version control for the libraries you choose to use in your project. If you're still struggling to grasp what a virtual environment is, let's set up an example.
 
@@ -68,3 +70,5 @@ If you want to do some more reading on managing your anaconda environments, chec
 
 ## Final Notes
 I realize that I'm leaving off the very reason that we set up a virtual environment, installing packages. We'll get there but let's cover some of the basics before we get too far ahead of ourselves. In the next Tutorial, *Tutorial 2: Python Basics*, we'll cover the basics of the Python language and how to install packages.
+
+For now, familiarize yourself with some of the editors that we set up. Search some articles on these editors and see what all you can learn!
