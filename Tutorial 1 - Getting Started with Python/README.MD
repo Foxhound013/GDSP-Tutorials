@@ -24,7 +24,7 @@ Congrats! You've got Python and the conda package manager installed! To interact
 
 Now, we're going to need our Python editors, i.e. Jupyter or Spyder. We'll cover this in the next section.
 
-One quick aside before going on, if you're curious about using anaconda navigator still (the GUI that was mentioned previously) you can still get that with Miniconda. Open your Anaconda Prompt and run the following command *conda install anaconda-navigator*. This will install various components required for setting up Anaconda Navigator which will give you a GUI way of handling launching Jupyter and Spyder as well as handling virtual environments. We won't be using navigator going forward but feel free to make use of it!
+One quick aside before going on, if you're curious about using anaconda navigator still (the GUI that was mentioned previously) you can still get that with Miniconda. Open your Anaconda Prompt and run the following command ```conda install anaconda-navigator```. This will install various components required for setting up Anaconda Navigator which will give you a GUI way of handling launching Jupyter and Spyder as well as handling virtual environments. We won't be using navigator going forward but feel free to make use of it!
 
 ## Jupyter Lab / Jupyter Notebooks and Spyder
 In this section we'll cover the setup of our code editor environments, Jupyter or Spyder. We'll primarily use Jupyter in these tutorials but both are excellent tools and how to install both tools will be covered here.
@@ -39,9 +39,9 @@ Finally, let's get Spyder set up. If you're familiar with R and R Studio, you'll
 
 Now if you want to open any of these programs, you can either open them from your start menu, application launcher, or from the Anaconda prompt. You can open any of these code editors from your Anaconda Prompt by running the following commands in the list below. If you want to quit jupyter (lab or notebook) just close the web browser page that has been opened and use ctrl+c or cmd+c in your prompt to quit.
 
- - jupyter lab
- - jupyter notebook
- - spyder
+ - ```jupyter lab```
+ - ```jupyter notebook```
+ - ```spyder```
 
 ## Setting up Virtual Environments
 Time for the final portion of this section, virtual environments! What are virtual environments? Virtual environments are essential to ensuring that your work is reproducible (one of the cornerstones of good scientific work) as they provide a sort of version control for the libraries you choose to use in your project. If you're still struggling to grasp what a virtual environment is, let's set up an example.
@@ -52,8 +52,19 @@ Is the picture getting clearer? I hope so, if not don't hesitate to ask question
 
 Okay, enough chit chat about what virtual environments are, how do you set one up? Let's do this!
 
-Open up your Anaconda prompt like we had done before. Let's see what environments are available at first . . . 
+Open up your Anaconda prompt like we had done before. Let's see what environments are available at first ```conda env list```. Since you haven't created anything yet, you'll only have the base directory, you should see something like the image below.
 
-```
-conda env list
-```
+![Base Conda Environments](./CondaEnvironments_Base.png)
+
+Let's create an environment for the work we're going to do going forward. Creating an environment is as simple as ```conda create --name MY_ENVIRONMENT_NAME```. You can fill in whatever name you would like here but for our purposes I'd recommend naming it the same as what I'm naming it, *gdsp_tutorials*. Afterward, when we list out the environments you should see it like below. In this screenshot I've included what the output of setting up an environment looks like.
+
+![Creating a Conda Environment](./conda_SettingUpEnv_.png)
+
+Now to switch to this environment and start installing packages simply run ```conda activate gdsp_tutorials```. To leave that environment you can run ```conda deactivate```, since only one environment is active at a time, you don't have to specify which environment you're deactivating. When you activate the environment, you'll notice that in front of the current line in your terminal, you'll have the environment name in parenthesis like what is shown below.
+
+![Activating an Environment.](./condaActivate_.png)
+
+If you want to do some more reading on managing your anaconda environments, check out the following resource: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html.
+
+## Final Notes
+I realize that I'm leaving off the very reason that we set up a virtual environment, installing packages. We'll get there but let's cover some of the basics before we get too far ahead of ourselves. In the next Tutorial, *Tutorial 2: Python Basics*, we'll cover the basics of the Python language and how to install packages.
