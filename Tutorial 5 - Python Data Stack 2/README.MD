@@ -1,0 +1,2 @@
+# Tutorial 5 - Python Data Stack 2
+Welcome to the fifth tutorial in this series. In this tutorial we are going to round out the Python scientific stack with Pandas! Not the cute and cuddly kind but the data focused kind!

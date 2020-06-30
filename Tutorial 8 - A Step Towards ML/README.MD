@@ -1,0 +1,2 @@
+# Tutorial 8 - A Step Towards ML
+Welcome to the eigth tutorial in this series. In this section we're going to take our first steps toward Machine Learning (ML) and discuss the use of the library Sci-Kit Learn or SKLearn. SKLearn has a lot of tools that will make getting started with some basic ML pretty straightforward!

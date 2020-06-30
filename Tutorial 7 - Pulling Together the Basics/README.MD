@@ -1,0 +1,2 @@
+# Tutorial 7 - Pulling together the basics.
+Welcome to the seventh tutorial in this series. In this tutorial we're going to try to pull together the basics of what we've done thus far and read a dataset into Python, do some basic analysis, and round it out with visualizations. 

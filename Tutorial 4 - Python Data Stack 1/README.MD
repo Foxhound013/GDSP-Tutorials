@@ -1,0 +1,2 @@
+# Tutorial 4 - Python Data Stack 1
+Welcome to the fourth tutorial in this series. Today we'll be covering the first part of the Python scientific stack, numpy and scipy. These are the libraries that will underly just about everything when it comes to scientific work in Python (there are exceptions but that's not the point here).
