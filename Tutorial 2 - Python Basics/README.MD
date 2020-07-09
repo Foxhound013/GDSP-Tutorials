@@ -6,11 +6,11 @@ Welcome to the second tutorial in this series. In this section we're going to co
  - Loops (for and while)
  - Functions
  - Methods
- - List comprehensions
  - Lambdas
  - Data Structures
+ - List comprehensions
 
- If you're looking at that list and thinking that it sounds like a lot for a single tutorial, you'd be right! Feel free to split this section into two parts and work on them over the course of a week or two. From the section on Functions and on starts some of the more advanced basics so you could consider that a good break point.
+ If you're looking at that list and thinking that it sounds like a lot for a single tutorial, you'd be right! Feel free to split this section into three parts and work on them over the course of a two or three weeks (in fact these will already be split into three different notebooks).
 
  From this point forward, a lot of the material will be taught through Jupyter Notebooks but these README docs are still going to introduce the material and provide supplemental information along the way.
 
@@ -33,3 +33,21 @@ There is an absolutely astounding amount of information out there for learning t
 - A condensed list of basic syntax and commands: https://www.tutorialspoint.com/python/index.htm
 
 - A cheatsheet of the commands commonly used in Python: https://www.pythonforbeginners.com/cheatsheet/python-cheat-sheets
+
+- If you're looking a more detailed tutorial on functions, check out datacamp: https://www.datacamp.com/community/tutorials/functions-python-tutorial
+
+- A tutorial on classes in Python, this is outside the scope of this tutorial but check it out if you're interested: https://docs.python.org/3/tutorial/classes.html
+
+- A more detailed tutorial on Python Lambdas: https://realpython.com/python-lambda/
+
+- Documentation on Python data structures: https://www.w3schools.com/python/python_lists.asp
+
+- List comprehensions: https://medium.com/better-programming/list-comprehension-in-python-8895a785550b
+
+- Info on sets: https://snakify.org/en/lessons/sets/
+
+- Stackoverflow explanation of tuples: https://stackoverflow.com/a/2174236
+
+- A good write up on dictionaries: https://medium.com/python-pandemonium/python-dictionaries-45cacc2b76aa
+
+- A general introduction to Numpy: http://cs231n.github.io/python-numpy-tutorial/
