@@ -3,9 +3,7 @@ Welcome to the fifth tutorial in this series. In this tutorial we are going to r
 
 Pandas is the final piece in the Python scientific stack that we have yet to cover. Pandas provides a new data structure in Python as well as some tooling for slicing and dicing your data. It is the equivalent of R's dataframe and some of dplyr's data manipulation. There are few projects where you'll go without Pandas. Pandas provides a great deal of flexibility and comfort not afforded by Numpy alone. Pandas is built on top of Numpy so you aren't losing out on any of those wonderfully optimized vector operations.
 
-Before starting this tutorial you'll need to install pandas.
-
-*NEED TO COMPLETE THE SECTION ON PANDAS ABOUT METHODS LIKE GROUPBY FOR BASIC DATA MANIPULATION*
+Before starting this tutorial you'll need to install pandas and bs4. bs4 is a library that will install some tools for web scraping (i.e. BeautifulSoup), we will be using this to pull in a dataset from an online GitHub repository.
 
 ## Resources
 - The Pandas documentation and more can be found here: https://pandas.pydata.org/
