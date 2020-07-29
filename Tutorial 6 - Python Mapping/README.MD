@@ -14,4 +14,6 @@ Another library that I came across in developing this tutorial is called GeoPand
 
 ## Resources
  - A mapping example from the Cartopy documentation, this example serves as a basis for our tutorial: https://scitools.org.uk/cartopy/docs/v0.13/matplotlib/advanced_plotting.html
+ - A great resource from Esri on coordinate reference systems and projections: https://pro.arcgis.com/en/pro-app/help/mapping/properties/specify-a-coordinate-system.htm#:~:text=A%20coordinate%20system%20is%20a,are%20relative%20to%20a%20surface
+ - More information on coordinate reference systems from rspatial documentation, despite it being for R it still applies to the topic at hand. Check it out: https://rspatial.org/raster/spatial/6-crs.html
  - An example of faceted maps using seaborn and cartopy: https://gist.github.com/shoyer/16db9cd187886a3effd8
