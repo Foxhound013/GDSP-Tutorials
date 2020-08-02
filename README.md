@@ -12,6 +12,11 @@ One final note on problem solving in your code, I've found that if I'm really st
 
 Enough with the disclaimers, let's get to the course!
 
+## Resources
+Any resoureces that I've located throughout building this tutorial that don't really have a good home within the course structure will go here.
+
+ - A fantastic resource with a ton of different sections going all the way from the basics of data wrangling in Python to ML: https://chrisalbon.com/
+
 # Course Structure
 This course will take you from the basics of Python programming to some of the basics of machine learning (ML) and deap learning (DL) in Python. The course outline can be seen below.
 
